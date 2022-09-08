@@ -3,11 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=harsiddhdave44&label=Visitor%20Count&color=57b8f2&style=flat" alt="harsiddhdave44" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harsiddhdave44" alt="harsiddhdave44" /></a> </p>
-
 - 🌱 I’m currently learning **AWS, Azure, DSA**
 
-- 📫 How to reach me **harsiddhdave44@outlook.com**
+- 📫 You can reach me at **harsiddhdave44@outlook.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
