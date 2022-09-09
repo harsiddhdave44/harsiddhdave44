@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=harsiddhdave44&label=Visitor%20Count&color=57b8f2&style=flat" alt="harsiddhdave44" /> </p>
 
-- 🌱 I’m currently learning **AWS, Azure, DSA**
+- 🌱 I’m currently learning **DevOps, System Design and DSA**
 
 - 📫 You can reach me at **harsiddhdave44@outlook.com**
 
