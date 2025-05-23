@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Harsiddh</h1> <h3 align=\"center\">A curious coder and a DevOps Enthusiast</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "./node_modules/.bin/tailwindcss -i ./style.css -o ./public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsiddhdave44/harsiddhdave44.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsiddhdave44/harsiddhdave44/issues"
+  },
+  "homepage": "https://github.com/harsiddhdave44/harsiddhdave44#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
