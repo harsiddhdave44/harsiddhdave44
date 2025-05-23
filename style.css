@@ -1,0 +1,106 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Basic Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; /* Dark grey text */
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0 auto;
+    max-width: 960px; /* Center content with a max-width */
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem; /* Add some space between h1 and nav */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* text-align: center; is already on header, which will center this block */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px; /* Optional: for rounded corners */
+}
+
+nav ul li a:hover,
+nav ul li a:focus { /* Added :focus for accessibility */
+    background-color: #555; /* Optional: background color on hover/focus */
+    text-decoration: none; /* Ensure underline doesn't appear if not desired */
+    color: #f0f0f0; /* Slightly lighter color on hover/focus */
+}
+
+/* Ensure nav is also centered if header text-align is not enough */
+/* nav { display: block; text-align: center; } */ /* This is generally not needed as ul will be centered by header's text-align if ul is inline-block or if its items are */
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for sections */
+    border-bottom: 1px solid #ddd; /* Light grey border */
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Responsive Design Basics */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
